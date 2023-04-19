@@ -1,0 +1,26 @@
+#octagon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  -webkit-clip-path: polygon(
+    30px 0%,
+    98% 0%,
+    100% 30px,
+    100% 70%,
+    98% 100%,
+    30px 100%,
+    0% 70%,
+    0% 30px
+  );
+  clip-path: polygon(
+    30px 0%,
+    98% 0%,
+    100% 30px,
+    100% 70%,
+    98% 100%,
+    30px 100%,
+    0% 70%,
+    0% 30px
+  );
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkccvq_client=self.webpackChunkccvq_client||[]).push([[737],{21737:function(c,e,n){n.r(e);n(47313);var t=n(46417);e.default=function(){return(0,t.jsx)("div",{children:"dashboard"})}}}]);

@@ -1,0 +1,37 @@
+.player_card {
+  background-color: #7d141b;
+  position: absolute;
+  bottom: 3%;
+  right: 8%;
+  width: 46%;
+  height: 16%;
+  color: #fbf6f5;
+  font-weight: 600;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player_card::after {
+  content: "";
+  background-color: #981310;
+  border-left: 3.5px solid #d0bebd;
+  width: 23%;
+  height: 176%;
+  transform: rotate(50deg);
+  position: absolute;
+  bottom: -35px;
+  right: -36px;
+}
+
+.player_card::before {
+  content: "";
+  background-color: #f6dad7;
+  background-image: linear-gradient(312deg, #fbebe9, #e9b5ad);
+  width: 17%;
+  height: 156%;
+  transform: rotate(50deg);
+  position: absolute;
+  bottom: 7px;
+  left: -17px;
+}

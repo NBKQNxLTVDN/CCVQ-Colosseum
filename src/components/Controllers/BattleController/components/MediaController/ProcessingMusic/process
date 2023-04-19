@@ -1,0 +1,79 @@
+A -> D
+
+C: pause
+
+C': start
+
+init
+
+	timer: 0
+	mile : 0
+	isPause: true;
+	start (new Date)
+	duration: 0
+	
+import
+
+	duration: x
+	mili: x * 1000;
+
+if Start: 
+
+	timer: 0 -> x
+	mile : x * 1000 -> 0
+	isPause: false;
+	start: (new Date)
+	duration: x
+	
+	if pause
+
+		timer: new Date () - start  (0 < a < x)
+		mili:  0 < b < x * 1000
+		
+		isPause : true
+		
+		
+	then start: 
+		timer, mili: same
+		isPause: true
+		
+		timer = new Date - start
+		
+pause: c
+
+	timer = c - start
+	duration: x
+
+start: d
+
+	start = new Date - timer
+
+d-c
+		
+
+secondStart: (timer: != 0, miliSecond < duration * 1000,)
+
+	start: start + timer
+	setIsPause(false);
+
+Case 2: (isPause: false)
+
+	setIsPause(true)
+
+Case 3: (isPause: true, duration = timer)
+
+setIsPause(false)
+
+	timer: 0,
+	mileSecond = duration * 1000,
+	start: new Date().getTime()
+
+if (end)
+	timer ~~ duration;
+	milesecond <= 0;
+
+timer -> duration
+
+milisecond -> 0
+
+timer/duration

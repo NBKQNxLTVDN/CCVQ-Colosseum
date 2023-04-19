@@ -1,0 +1,8 @@
+{
+  "cSpell.words": ["Prefixer", "Toastify"],
+  "docwriter.progress.trackFunctions": true,
+  "docwriter.progress.trackMethods": true,
+  "docwriter.progress.trackClasses": true,
+  "docwriter.progress.trackTypes": true,
+  "docwriter.hotkey.mac": "⌘ + ."
+}
